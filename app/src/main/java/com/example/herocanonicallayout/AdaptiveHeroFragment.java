@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-/** A Fragment that hosts a feed demo. */
 public class AdaptiveHeroFragment extends Fragment {
 
     @Nullable
