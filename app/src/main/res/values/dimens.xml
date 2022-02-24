@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_touch_target_size">48dp</dimen>
+    <dimen name="margin_horizontal">12dp</dimen>
+    <dimen name="margin_vertical">16dp</dimen>
+    <dimen name="margin_none">0dp</dimen>
+
+    <dimen name="hero_margin">16dp</dimen>
+    <!-- Add 8dp to the existing 16dp margin to get 24dp. -->
+    <dimen name="hero_margin_horizontal_additional">8dp</dimen>
+</resources>
