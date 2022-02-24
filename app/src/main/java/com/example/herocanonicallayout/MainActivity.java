@@ -12,27 +12,19 @@ import com.google.android.material.floatingactionbutton.ExtendedFloatingActionBu
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.navigationrail.NavigationRailView;
 
-/** An Activity which hosts the Adaptive feed flow. */
 public class MainActivity extends AppCompatActivity {
-
-    private DrawerLayout drawerLayout;
-    private NavigationView modalNavDrawer;
-    private BottomNavigationView bottomNav;
-    private NavigationRailView navRail;
-    private NavigationView navDrawer;
-    private ExtendedFloatingActionButton navFab;
 
     @Override
     protected void onCreate(@Nullable Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_main);
 
-        drawerLayout = findViewById(R.id.drawer_layout);
-        modalNavDrawer = findViewById(R.id.modal_nav_drawer);
-        bottomNav = findViewById(R.id.bottom_nav);
-        navRail = findViewById(R.id.nav_rail);
-        navDrawer = findViewById(R.id.nav_drawer);
-        navFab = findViewById(R.id.nav_fab);
+        DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
+        NavigationView modalNavDrawer = findViewById(R.id.modal_nav_drawer);
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_nav);
+        NavigationRailView navRail = findViewById(R.id.nav_rail);
+        NavigationView navDrawer = findViewById(R.id.nav_drawer);
+        ExtendedFloatingActionButton navFab = findViewById(R.id.nav_fab);
         Configuration configuration = getResources().getConfiguration();
 
         // Update navigation views according to screen width size.
